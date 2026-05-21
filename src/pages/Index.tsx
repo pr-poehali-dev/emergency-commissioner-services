@@ -23,7 +23,7 @@ const services = [
   {
     icon: "Phone",
     title: "Выезд 24/7",
-    desc: "Приедем в любое время суток. Среднее время прибытия — 25 минут.",
+    desc: "Приедем в любое время суток. Среднее время прибытия — 20 минут.",
   },
   {
     icon: "Car",
@@ -40,7 +40,7 @@ const services = [
 const stats = [
   { value: "8 лет", label: "на рынке" },
   { value: "4 200+", label: "решённых случаев" },
-  { value: "25 мин", label: "среднее время прибытия" },
+  { value: "20 мин", label: "среднее время прибытия" },
   { value: "98%", label: "успешных выплат" },
 ];
 
@@ -105,7 +105,7 @@ export default function Index() {
               style={{ background: "rgba(212,134,30,0.25)", color: "#e8a03a", border: "1px solid rgba(212,134,30,0.4)" }}
             >
               <span className="w-2 h-2 rounded-full bg-warm-400 animate-pulse" />
-              Выезд в течение 25 минут · 24/7
+              Выезд в течение 20 минут · 24/7
             </div>
 
             <h1 className="font-cormorant text-5xl md:text-6xl font-semibold leading-tight mb-6 text-white">
