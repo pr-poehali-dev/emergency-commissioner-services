@@ -81,11 +81,11 @@ export default function Index() {
             <a href="#form" className="hover:text-warm-600 transition-colors">Заявка</a>
           </div>
           <a
-            href="tel:+79001234567"
+            href="tel:+79278922522"
             className="flex items-center gap-2 bg-warm-500 text-white px-4 py-2 rounded-xl text-sm font-semibold hover:bg-warm-600 transition-colors"
           >
             <Icon name="Phone" size={14} />
-            +7 (900) 123-45-67
+            +7 (927) 892-25-22
           </a>
         </div>
       </nav>
@@ -129,7 +129,7 @@ export default function Index() {
                 Оставить заявку
               </a>
               <a
-                href="tel:+79001234567"
+                href="tel:+79278922522"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-2xl font-semibold transition-all hover:scale-105"
                 style={{ background: "rgba(255,255,255,0.12)", color: "white", border: "1px solid rgba(255,255,255,0.3)", backdropFilter: "blur(8px)" }}
               >
@@ -417,9 +417,9 @@ export default function Index() {
             </div>
 
             <div className="flex flex-col md:flex-row items-center gap-6 text-sm" style={{ color: "rgba(255,255,255,0.5)" }}>
-              <a href="tel:+79001234567" className="hover:text-warm-400 transition-colors flex items-center gap-1.5">
+              <a href="tel:+79278922522" className="hover:text-warm-400 transition-colors flex items-center gap-1.5">
                 <Icon name="Phone" size={14} />
-                +7 (900) 123-45-67
+                +7 (927) 892-25-22
               </a>
               <a href="mailto:info@avarkom.ru" className="hover:text-warm-400 transition-colors flex items-center gap-1.5">
                 <Icon name="Mail" size={14} />
