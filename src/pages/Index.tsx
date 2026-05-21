@@ -192,48 +192,27 @@ export default function Index() {
 
       {/* ABOUT */}
       <section id="about" className="py-24 px-6" style={{ background: "#f0f4f8" }}>
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
-          <div className="relative">
-            <div
-              className="absolute -top-4 -left-4 w-48 h-48 rounded-full opacity-20"
-              style={{ background: "#d4861e", filter: "blur(40px)" }}
-            />
-            <img
-              src={COMMISSIONER_IMAGE}
-              alt="Аварийный комиссар"
-              className="relative z-10 rounded-3xl w-full object-cover shadow-xl"
-              style={{ maxHeight: "480px" }}
-            />
-            <div
-              className="absolute -bottom-5 -right-5 z-20 px-6 py-4 rounded-2xl shadow-lg"
-              style={{ background: "white" }}
-            >
-              <div className="font-cormorant text-3xl font-semibold" style={{ color: "#d4861e" }}>8 лет</div>
-              <div className="text-sm" style={{ color: "#5783a4" }}>профессионального опыта</div>
-            </div>
-          </div>
-
-          <div>
+        <div className="max-w-4xl mx-auto">
             <p className="text-sm font-semibold tracking-widest uppercase mb-3" style={{ color: "#d4861e" }}>О компании</p>
             <h2 className="font-cormorant text-4xl md:text-5xl font-semibold mb-6" style={{ color: "#172840" }}>
               Мы защищаем ваши<br />интересы в трудный момент
             </h2>
-            <p className="leading-relaxed mb-6" style={{ color: "#3d6589" }}>
+            <p className="leading-relaxed mb-6 max-w-2xl" style={{ color: "#3d6589" }}>
               АварКом — команда лицензированных специалистов, которые приедут на место ДТП,
               возьмут на себя всё бумажное оформление и помогут получить справедливую страховую выплату.
             </p>
-            <p className="leading-relaxed mb-10" style={{ color: "#3d6589" }}>
-              Работаем по всему городу и области. Не нужно ни в чём разбираться —
+            <p className="leading-relaxed mb-10 max-w-2xl" style={{ color: "#3d6589" }}>
+              Работаем во всех районах города и области. Не нужно ни в чём разбираться —
               просто позвоните нам, мы займёмся всем остальным.
             </p>
 
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col sm:flex-row gap-4">
               {[
                 "Работаем 24 часа в сутки, 7 дней в неделю",
                 "Собственный штат юристов и оценщиков",
                 "Фиксированная стоимость — без скрытых доплат",
               ].map((item) => (
-                <div key={item} className="flex items-start gap-3">
+                <div key={item} className="flex items-start gap-3 flex-1 p-5 rounded-2xl" style={{ background: "white", border: "1px solid #f5dba8" }}>
                   <div className="w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5" style={{ background: "#faefd8" }}>
                     <Icon name="Check" size={12} style={{ color: "#d4861e" }} />
                   </div>
@@ -241,7 +220,6 @@ export default function Index() {
                 </div>
               ))}
             </div>
-          </div>
         </div>
       </section>
 
