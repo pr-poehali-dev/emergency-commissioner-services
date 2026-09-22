@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://emergency-commissioner-services--preview.poehali.dev/sitemap.xml
+Sitemap: https://dtp-tlt.ru/sitemap.xml
