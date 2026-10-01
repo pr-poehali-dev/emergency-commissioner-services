@@ -1,5 +1,7 @@
 import { useState } from "react";
 import Icon from "@/components/ui/icon";
+import HowItWorks from "@/components/HowItWorks";
+import Faq from "@/components/Faq";
 
 const HERO_IMAGE = "https://cdn.poehali.dev/projects/44b03f54-3aeb-49fd-9735-65db2edc1ad3/files/bcf0b306-4a34-4caf-9828-e1c0269852e7.jpg";
 const COMMISSIONER_IMAGE = "https://cdn.poehali.dev/projects/44b03f54-3aeb-49fd-9735-65db2edc1ad3/files/d27468b8-de48-458e-88b0-1d879a668814.jpg";
@@ -77,6 +79,8 @@ export default function Index() {
           </div>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium" style={{ color: "#3d6589" }}>
             <a href="#services" className="hover:text-warm-600 transition-colors">Услуги</a>
+            <a href="#how" className="hover:text-warm-600 transition-colors">Как работаем</a>
+            <a href="#faq" className="hover:text-warm-600 transition-colors">Вопросы</a>
             <a href="#about" className="hover:text-warm-600 transition-colors">О нас</a>
             <a href="#form" className="hover:text-warm-600 transition-colors">Заявка</a>
           </div>
@@ -207,7 +211,7 @@ export default function Index() {
               возьмут на себя всё бумажное оформление и помогут получить справедливую страховую выплату.
             </p>
             <p className="leading-relaxed mb-10 max-w-2xl" style={{ color: "#3d6589" }}>
-              Работаем во всех районах города. Не нужно ни в чём разбираться —
+              Работаем по всему Тольятти и Ставропольскому району. Не нужно ни в чём разбираться —
               просто позвоните нам, мы займёмся всем остальным.
             </p>
 
@@ -227,6 +231,9 @@ export default function Index() {
             </div>
         </div>
       </section>
+
+      <HowItWorks />
+      <Faq />
 
       {/* FORM */}
       <section id="form" className="py-24 px-6">
