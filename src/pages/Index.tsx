@@ -119,6 +119,11 @@ export default function Index() {
               переговоры со страховой и защиту ваших прав.
             </p>
 
+            <div className="flex items-center gap-2 mb-10 -mt-6 text-base font-medium text-white">
+              <Icon name="MapPin" size={18} />
+              Работаем по Тольятти и Ставропольскому району
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href="#form"
